@@ -1,5 +1,5 @@
 //Let's Start
-//home from app.js
+
 import './App.css';
 import {Home} from './pages';
 
