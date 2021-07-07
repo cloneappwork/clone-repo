@@ -1,13 +1,16 @@
 //Let's Start
-
+import React from 'react';
 import './App.css';
 import {Home} from './pages';
+import { UserContextProvider } from './contexts/user';
 
 function App() {
   return (
-    <div className="App">
+    <UserContextProvider>
+      <div className="App">
       <Home />
-    </div>
+      </div>
+    </UserContextProvider>
   );
 }
 
