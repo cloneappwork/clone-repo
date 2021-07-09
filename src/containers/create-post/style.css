@@ -5,8 +5,19 @@
     padding : 24px; 
 }
 
-
+createPost__loggedIn{
+    background-color:  white;
+}
 
 .createPost__imageUpload > input {
     display: none;
+}
+
+
+
+
+createPost__uploadBtn {
+border :none;
+background-color:  white;
+
 }

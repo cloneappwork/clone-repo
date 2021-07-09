@@ -34,7 +34,9 @@ export default function CreatePost() {
              accept ="image/*"
               onChange ={handleChange}/>
             </div>
-            <button className = "createPost__uploadBtn" onclick ={handleUpload}>
+            <button className = "createPost__uploadBtn" 
+            onclick ={handleUpload} 
+            style = {{color : caption ? "#000" : "lightgrey"}}>
                 Upload
                 </button>
             </div>
