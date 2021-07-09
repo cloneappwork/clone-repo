@@ -4,3 +4,9 @@
     justify-content: center;
     padding : 24px; 
 }
+
+
+
+.createPost__imageUpload > input {
+    display: none;
+}
