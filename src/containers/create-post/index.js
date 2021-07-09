@@ -27,7 +27,7 @@ export default function CreatePost() {
                 </textarea>
             </div>
             <div class ="createPost__imageUpload">
-            <label htmlFor ="FileInput"><AddAPhotoIcon style = {{cursor:"pointer",fontSize :"20px"}}/>
+            <label htmlFor ="fileInput"><AddAPhotoIcon style = {{cursor:"pointer",fontSize :"20px"}}/>
             </label>
             <input id ="fileInput" 
             type ="file"
