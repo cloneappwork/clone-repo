@@ -9,9 +9,9 @@ export default function CreatePost() {
     const [caption, setCaption] = useState("");
 
 
-    const handleChange = () => {
+    const handleChange = () => {};
 
-    }
+    const handleUpload =() => {}; //handle upload check image exist
 
     return (
         <div className = "createPost">
@@ -34,7 +34,9 @@ export default function CreatePost() {
              accept ="image/*"
               onChange ={handleChange}/>
             </div>
-            <button className = "createPost__uploadBtn">Upload</button>
+            <button className = "createPost__uploadBtn" onclick ={handleUpload}>
+                Upload
+                </button>
             </div>
             ) : (
                 <div> 
