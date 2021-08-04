@@ -23,3 +23,13 @@
     height:35px;
     border-radius:8px;
 }
+
+.post__delete{
+
+    border:none;
+    background-color: white;
+
+}
+post__delete:focus{
+    outline:none;
+}
