@@ -33,3 +33,9 @@
 post__delete:focus{
     outline:none;
 }
+.post__photoUrl{
+
+    width :100%;
+    object-fit :cover;
+    margin: 16px 0px;
+}
