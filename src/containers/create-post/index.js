@@ -61,10 +61,13 @@ export default function CreatePost() {
 
                     });
                 });
+                setCaption("");
+                setProgress(0);
+                setImage(null);
             });
         }
     }; //handle upload check image exist
-
+    
     return (
         <div className = "createPost">
            
@@ -110,4 +113,4 @@ export default function CreatePost() {
            
         </div>
     );
-}
+            }
