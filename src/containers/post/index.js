@@ -1,6 +1,15 @@
 import React, { useContext, useState } from 'react'
 import "./style.css";
-export default function Post({profileUrl,username,id,photoURl,caption,comments}) {
+import { Comment } from "../../componenets";
+export default function Post({profileUrl,username,id,photoURl,caption,comments})
+ {
+
+        const deletePost =() => {
+
+            //delete the image from the firebase storage
+        }
+
+
    
     return (
         <div className = "post">
