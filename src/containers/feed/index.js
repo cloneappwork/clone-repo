@@ -3,6 +3,8 @@ import "./style.css"
 import Post from '../post';
 import {db} from "../../firebase";
 
+
+
 export default function Feed() {
    
    const [posts, setPosts] = useState([]);
@@ -17,19 +19,22 @@ export default function Feed() {
 
     return (
         <div className = "feed">
-            
+
        {posts.map(({id,post}) => {
 
-           return <Post
+           return( <Post
            key ={id}
            id = {id}
            profileUrl ={post.profileUrl}
            username = {post.username}
            photoURl ={post.photoUrl}
            caption = {post.caption}
+           comments = {post.comments}
+          
            />
 
-       })}
+       );
+    })}
 
         </div>
 
